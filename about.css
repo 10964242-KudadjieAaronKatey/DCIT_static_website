@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+#background {
+    background-color:yellow;
+    min-height: 100vh ;
+    width: 100vw;
+}
+
+#content {
+    box-sizing: border-box;
+    align-items: center;
+}
+.header {
+    flex:auto;
+    float:left;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 80%;
+}
+
+h1 {
+    letter-spacing: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: bold;
+}
+
+p {
+    padding-top: 8px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 16px;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.aboutMessage {
+    align-items: center;
+    padding-left: 3vw;
+    padding-bottom: 0vh;
+    padding-top: 15vh;
+}
+
+.previous {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    float:inline-start
+}
+
+img.image {
+    filter: brightness(100%);
+    filter: contrast (100%);
+    filter: drop-shadow(8px, 8px, 10px, black);
+}
+li{
+    padding-top: 20vh;
+    padding-left: 20vh;
+    font-size: 50px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    height: 20vh;
+}
+
+li :hover {
+    opacity: 0.7;
+}
+
+.toggle {
+    padding-left: 30px;
+}
+
+li a {
+    background: yellow;
+    color: black;
+    border-radius: 10px;
+}
+.photo{padding-bottom: 2vh;}
+.photo img {
+    min-width:2vw;
+    max-height: 53vh;
+    padding-right: 5vw;
+    padding-left: 10px;
+    float: right;
+    padding-top: 34px;
+}
